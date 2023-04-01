@@ -1,0 +1,29 @@
+{
+    "cryptowatchApiKey": "aaaaxxx",
+    "ethPrivKeys": [
+        ""
+    ],
+    "zigzagChainId": 1,
+    "zigzagWsUrl": "wss://zigzag-exchange.herokuapp.com",
+    "feeToken": "USDC",
+    "pairs": {
+        "ZZ-USDC": {
+            "side": "s",
+            "priceFeedPrimary": "constant:0.402",
+            "slippageRate": 1e-4,
+            "maxSize": 870,
+            "minSize": 100,
+            "minSpread": 0.0005,
+            "active": true
+        },
+        "ZZ-USDC": {
+            "side": "b",
+            "priceFeedPrimary": "constant:0.366",
+            "slippageRate": 1e-4,
+            "maxSize": 870,
+            "minSize": 100,
+            "minSpread": 0.0005,
+            "active": true
+        }
+    }
+}
