@@ -9,7 +9,7 @@
         "ZZ-USDC": {
             "priceFeedPrimary": "constant:0.402",
             "side": "s",
-            "slippageRate": 1e-4,
+            "slippageRate": 1e-5,
             "maxSize": 870,
             "minSize": 100,
             "minSpread": 0.0005,
@@ -19,7 +19,7 @@
         "ZZ-USDC": {
             "priceFeedPrimary": "constant:0.366",
             "side": "b",
-            "slippageRate": 1e-4,
+            "slippageRate": 1e-5,
             "maxSize": 870,
             "minSize": 100,
             "minSpread": 0.0005,
