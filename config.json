@@ -7,18 +7,35 @@
     "feeToken": "USDC",
     "pairs": {
         "ZZ-USDC": {
-            "priceFeedPrimary": "constant:0.402",
+            "priceFeedPrimary": "constant:0.388",
             "side": "s",
             "slippageRate": 1e-5,
             "maxSize": 870,
             "minSize": 100,
             "minSpread": 0.0005,
-            "active": true,
-            "numOrdersIndicated": 5
+            "active": true
+        },
+        "ZZ-ETH": {
+            "priceFeedPrimary": "constant:0.000222",
+            "side": "s",
+            "slippageRate": 1e-5,
+            "maxSize": 870,
+            "minSize": 100,
+            "minSpread": 0.0005,
+            "active": true
         },
         "ZZ-USDC": {
             "priceFeedPrimary": "constant:0.366",
             "side": "b",
+            "slippageRate": 1e-5,
+            "maxSize": 870,
+            "minSize": 100,
+            "minSpread": 0.0005,
+            "active": false
+        },
+        "ZZ-ETH": {
+            "priceFeedPrimary": "constant:0.000222",
+            "side": "s",
             "slippageRate": 1e-5,
             "maxSize": 870,
             "minSize": 100,
