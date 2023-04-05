@@ -34,13 +34,13 @@
             "active": false
         },
         "ZZ-ETH": {
-            "priceFeedPrimary": "constant:0.000222",
-            "side": "s",
+            "priceFeedPrimary": "constant:0.000122",
+            "side": "b",
             "slippageRate": 1e-5,
             "maxSize": 870,
             "minSize": 100,
             "minSpread": 0.0005,
-            "active": true
+            "active": false
         }
     }
 }
